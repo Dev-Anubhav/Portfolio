@@ -194,11 +194,10 @@ header .logo h1 {
 header nav ul {
    display: flex;
             justify-content: right;
+            gap: 20px;
 }
 
-header nav ul li {
-    margin-left: 10px;
-}
+
 
 header nav ul li a {
     padding: 25px 5px;
@@ -303,6 +302,8 @@ header nav ul li a {
 
 
 
+
+
 .wrap-3 span img {
     -webkit-transition: all .3s ease-out;
     -o-transition: all .3s ease-out;
@@ -361,7 +362,9 @@ header nav ul li a {
 .wrap-4 p{white-space: pre-line; color: #767676; font-size: 1rem; line-height: 1.4;}
 
 /* Wrap-5 */
+.wrap-5{padding: 30px 0;}
 .wrap-5 .project-section{margin-top: 60px; padding: 20px;}
+.wrap-5 .project-section:first-child{margin-top: 0;}
 .wrap-5  h3{font-size: 2.8rem; color: #147efb; padding: 22px;}
 .wrap-5 .img{margin-top: 2rem; overflow: hidden; border-radius: 5px;   box-shadow: 0 0 5px;}
 .wrap-5 .img img{max-width: 100%; height: auto; cursor: pointer; width: 100%;}
@@ -376,6 +379,25 @@ header nav ul li a {
 .wrap-5 .links a{color: #000;}
 
 
+
+
+.wrap-6{padding: 80px 0 20px 0;}
+.wrap-6 h4{color: #147efb;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;}
+    
+    .wrap-6 h5{color: #2d2e32;
+        font-size: 2rem;
+    }
+    .iconmail{height: 50px; width: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 10px rgba(0, 0, 0, .3);}
+    .iconmail i{font-size: 1.5rem; color: #147efb;}
+
+    .wrap-6 .mail{display: flex; align-items: center; gap: 20px; padding: 20px 0; margin-top: 25px;}
+    .wrap-6 .mailid{display: flex; flex-flow: column wrap; gap: 10px;}
+    .wrap-6 .mailid h3{font-size: 1.1rem; color: #2d2e32; }
+    .wrap-6 .mailid p{font-size: 17px; color: #767676; font-weight: 600;}
 
 
 
@@ -433,8 +455,9 @@ header nav ul li a {
 .wrap-3 h3{margin: 0;}
 header {padding: 20px 15px;}
 header .menu{display: block; display: flex; justify-content: right; align-items: center; font-size: 1.6rem; color: #000;}
-header nav ul{ display: flex; flex-flow: column wrap; position: absolute; top: 50px;  background: white; padding: 10px; transition: left 0.3s ease; left: -100%; width: 100%;}
+header nav ul{ display: flex; flex-flow: column wrap; position: absolute; top: 50px;  background: white; padding: 10px; transition: left 0.3s ease; left: -100%; width: 100%; gap: 0;}
 .wrap-5 .text-content p{width: 100%;}
+.wrap-6  h5{font-size: 1.8rem;}
 
 }
 
