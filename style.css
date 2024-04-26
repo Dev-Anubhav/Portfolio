@@ -290,7 +290,10 @@ header nav ul li a {
     display: flex;
             align-items: center;
 }
+
 .wrap-3 ul{display: flex; flex-flow: row wrap; gap: 10px;}
+.wrap-3 ul li{transition: all 0.3s ease-in-out;}
+.wrap-3 li:hover{transform: translateY(-13px);}
 
 .wrap-3 h3 {
     font-weight: 600;
