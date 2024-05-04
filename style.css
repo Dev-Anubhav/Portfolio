@@ -450,6 +450,7 @@ header nav ul li a {
     justify-content: center;
     text-align: center;
     margin-top: 25px;
+    margin-left: 0;
 }
 .wrap-4 h4{font-size: 35px;}
 
@@ -457,7 +458,7 @@ header nav ul li a {
 .wrap-5 .project-section:first-child{margin-top: 0;}
 
 .wrap-3 .skills{display: flex; flex-flow: column wrap; align-items: center; gap: 30px; justify-content: center;}
-.wrap-3 ul{ justify-content:center}
+.wrap-3 ul{display: flex; flex-flow: row wrap; justify-content:center}
 .wrap-3 h3{margin: 0;}
 header {padding: 20px 15px;}
 header .menu{display: block; display: flex; justify-content: right; align-items: center; font-size: 1.6rem; color: #000;}
